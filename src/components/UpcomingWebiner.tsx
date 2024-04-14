@@ -57,12 +57,32 @@ function UpcomingWebiner(){
     },
   ];
     return (
-        <div className="p-12 bg-gray-900">
-          <div className="max-w-7xl mx-auto px-4 sm:mx-6 ">
+        <div className=" h-[40rem] w-full  p-12 bg-gray-900 relative items-center justify-center overflow-hidden">
+          
+          
+          
+          {/* <div className="max-w-7xl mx-auto px-4 sm:mx-6 ">
             <div className="text-center">
-            <h2 className="uppercase text-teal-600 font-semibold tracking-wide">Featured UpcomingWebiner</h2>
+            <h2 className="uppercase text-teal-600  w-full  font-semibold tracking-wide">Featured UpcomingWebiner</h2>
                         <p className="mt-2 sm:text-4xl leading-8 font-extrabold text-3xl">Enhance Your Musical Journey</p>
+            </div> */}
+
+<div>
+                    <div className="text-center">
+                        <h2 className="uppercase text-teal-600  w-full  font-semibold tracking-wide">Featured UpcomingWebiner</h2>
+                        <p className="mt-2 sm:text-4xl leading-8 font-extrabold text-3xl">Enhance Your Musical Journey</p>
+                    </div>
+                    
+                
             </div>
+
+
+
+
+
+
+
+
             <div className="mt-10">
 
             <HoverEffect items={featuredWebinars.map(webiner =>({
@@ -80,7 +100,7 @@ function UpcomingWebiner(){
 
             </div>
           </div>
-        </div>
+       
     )
 }
 
